@@ -1,4 +1,5 @@
 import 'package:a8_brunas_task_app/resources/resources.dart';
+import 'package:a8_brunas_task_app/screens/home.screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -23,16 +24,3 @@ class BrunasTasks extends StatelessWidget {
   }
 }
 
-class HomeScreen extends StatefulWidget {
-  @override
-  _HomeScreenState createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text('Brunas Tasks'))
-    );
-  }
-}

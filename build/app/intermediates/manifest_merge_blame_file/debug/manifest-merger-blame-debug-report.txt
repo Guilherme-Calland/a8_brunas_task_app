@@ -30,8 +30,8 @@
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->/home/gui/flutter-projects/a8_brunas_task_app/android/app/src/main/AndroidManifest.xml:11:9-43
-27        android:label="Bruna&apos;s Tasks" >
-27-->/home/gui/flutter-projects/a8_brunas_task_app/android/app/src/main/AndroidManifest.xml:10:9-30
+27        android:label="" >
+27-->/home/gui/flutter-projects/a8_brunas_task_app/android/app/src/main/AndroidManifest.xml:10:9-25
 28        <activity
 28-->/home/gui/flutter-projects/a8_brunas_task_app/android/app/src/main/AndroidManifest.xml:12:9-40:20
 29            android:name="com.guilhermecallandprojects.a8_brunas_task_app.MainActivity"
