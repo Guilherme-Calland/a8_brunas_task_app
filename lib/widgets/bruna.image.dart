@@ -31,6 +31,46 @@ class Bruna extends StatelessWidget {
               )
             );
           },
+          onLongPress: (){
+            showDialog(
+              context: context,
+              builder: (context) => Column(
+                children: <Widget>[
+                  SizedBox(height: 100,),
+                  Material(
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 20,
+                        vertical: 30,
+                      ),
+                      child: Text(
+                        'Parabens Nunes! Fiz esse app pra você.\n'
+                        'Para criar uma nova tarefa, é só\n'
+                        'tocar no seu boneco.\n'
+                        'Para excluir uma tarefa é só tocar na\n'
+                        'tarefa.\n'
+                        'Para editar uma tarefa aperta e segura\n'
+                        'na tarefa.\n'
+                        'Caso deseje mudar a ordem das tarefas\n'
+                        '(começando pela mais antiga, ou\n'
+                        'começando pela mais nova) basta dar um\n'
+                        'toque no ícone acima do título\n'
+                        '"Bruna\'s Tasks".\n'
+                        'Eu te odeio por me fazer me importar\n'
+                        'contigo porque aí eu perco tempo\n'
+                        'fazendo coisas como ISSO AQUI.\n'
+                        'Houve uma época em que eu me sentia\n'
+                        'com muita raiva por você insistir\n'
+                        'tanto nessa amizade.\n'
+                        'Hoje fico feliz que você insistiu.\n'
+                        'Feliz Aniversário.'
+                        ),
+                    )
+                  ),
+                ],
+              )
+            );
+          },
         ),
       ),
     );
