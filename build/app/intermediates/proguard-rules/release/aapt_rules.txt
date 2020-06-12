@@ -1,0 +1,6 @@
+# Referenced at /home/gui/flutter-projects/a8_brunas_task_app/build/app/intermediates/merged_manifests/release/arm64-v8a/AndroidManifest.xml:17
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/gui/flutter-projects/a8_brunas_task_app/build/app/intermediates/merged_manifests/release/arm64-v8a/AndroidManifest.xml:22
+-keep class com.guilhermecallandprojects.a8_brunas_task_app.MainActivity { <init>(); }
+# Referenced at /home/gui/flutter-projects/a8_brunas_task_app/build/app/intermediates/merged_manifests/release/arm64-v8a/AndroidManifest.xml:17
+-keep class io.flutter.app.FlutterApplication { <init>(); }

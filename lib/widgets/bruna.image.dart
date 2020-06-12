@@ -9,7 +9,7 @@ class Bruna extends StatelessWidget {
     return Transform.scale(
       scale: 3,
       child: Transform.translate(
-        offset: Offset(-13, 40),
+        offset: Offset(-2, 55),
         child: MaterialButton(
           padding: EdgeInsets.all(0),
           minWidth: 0,

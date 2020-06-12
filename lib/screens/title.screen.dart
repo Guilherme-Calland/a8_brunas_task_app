@@ -9,7 +9,7 @@ class TitleScreen extends StatelessWidget {
     return Container(
       padding: EdgeInsets.only(
         top: 80,
-        left: 40,
+        left: 58,
         bottom: 40
       ),
       child: Column(

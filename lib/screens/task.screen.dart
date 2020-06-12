@@ -8,7 +8,7 @@ class TaskScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        padding: EdgeInsets.only(left: 26),
+        padding: EdgeInsets.only(left: 58, right: 22),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.only(

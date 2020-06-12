@@ -8,34 +8,37 @@ class TaskList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Consumer<BrunasTasksData>(
-        builder: (context, data, child){
-          return ListView.builder(
-            itemCount: data.tasks.length,
-            itemBuilder: (context, index){
-              Task task = data.tasks[index];
-              return ListTile(
-                title: Text(task.name),
-                onTap: () async {
-                  data.deleteTask(task.id);
-                  data.changeImageToThumbsUp();
-                },
-                onLongPress: () async {
-                  showDialog(
-                    context: context,
-                    builder: (context) => Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: <Widget>[
-                        SizedBox(height: 200,),
-                        AddTaskDialog(updatedTask: task, addOrChange: "Change",)
-                      ],
-                    )
-                  );
-                },
-              );
-            },
-          );
-        }
+      child: Container(
+        child: Consumer<BrunasTasksData>(
+          builder: (context, data, child){
+            return ListView.builder(
+              itemCount: data.tasks.length,
+              itemBuilder: (context, index){
+                Task task = data.tasks[index];
+                return ListTile(
+                  contentPadding: EdgeInsets.all(0),
+                  title: Text(task.name),
+                  onTap: () async {
+                    data.deleteTask(task.id);
+                    data.changeImageToThumbsUp();
+                  },
+                  onLongPress: () async {
+                    showDialog(
+                      context: context,
+                      builder: (context) => Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          SizedBox(height: 200,),
+                          AddTaskDialog(updatedTask: task, addOrChange: "Change",)
+                        ],
+                      )
+                    );
+                  },
+                );
+              },
+            );
+          }
+        ),
       ),
     );
   }

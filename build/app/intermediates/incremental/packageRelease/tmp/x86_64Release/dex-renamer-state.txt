@@ -1,0 +1,4 @@
+#Fri Jun 12 03:17:58 BRT 2020
+base.0=/home/gui/flutter-projects/a8_brunas_task_app/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
